@@ -75,16 +75,16 @@ def details(request,book_id):
         return HttpResponseRedirect('/book/index')
 
 
-def delete(request,book_id):
-    # id = int(book_id)
-    books = Book.objects.filter(id=book_id,isActive=True)
-    if not books:
-        return HttpResponseRedirect('/book/index')
-    # 伪删除
-    book=books[0]
-    book.isActive = False
-    book.save()
-    return HttpResponseRedirect('/book/index')
+# def delete(request,book_id):
+#     # id = int(book_id)
+#     books = Book.objects.filter(id=book_id,isActive=True)
+#     if not books:
+#         return HttpResponseRedirect('/book/index')
+#     # 伪删除
+#     book=books[0]
+#     book.isActive = False
+#     book.save()
+#     return HttpResponseRedirect('/book/index')
 
 
 def test_count(request):
