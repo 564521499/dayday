@@ -5,3 +5,6 @@ readme
 
 
 *测试 git statsh save
+
+
+同时结合实际后半部分
