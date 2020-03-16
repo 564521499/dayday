@@ -7,4 +7,11 @@ readme
 *测试 git statsh save
 
 
+
 * it需要有点探索精神,是一个持续学习的过程
+
+*测试 git statsh save
+
+
+同时结合实际后半部分
+
