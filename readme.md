@@ -5,3 +5,6 @@ readme
 你说
 
 *测试 git statsh save
+
+
+* it需要有点探索精神,是一个持续学习的过程
